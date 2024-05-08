@@ -1,6 +1,4 @@
-# LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking
-
-This repository is the PyTorch impelementation for the PGAI@CIKM 2023 paper **LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking [[Paper](https://arxiv.org/abs/2311.02089)]**.
+# Recommending Offers to Chase Customers using Large Language Models
 
 <img src=media/method.png width=1000>
 
@@ -12,7 +10,7 @@ We propose a two-stage framework using large language models for ranking-based r
 Pytorch, transformers, peft, bitsandbytes etc. For our detailed running environment see requirements.txt.
 
 
-## How to run LlamaRec
+## How to run
 The command below starts the training of the retriever model LRURec
 ```bash
 python train_retriever.py
